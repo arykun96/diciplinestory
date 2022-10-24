@@ -1,0 +1,244 @@
+*{
+
+    margin:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    }
+
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: auto;
+        background-color:#b9caff;
+        }
+   
+    .conteiner{
+       
+     
+     
+      
+    
+       align-items: center;
+        
+        
+       
+      
+    
+    
+    
+    }
+
+    #form{
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        
+    }
+    #form .form {
+       
+
+
+        
+        
+        
+
+       flex-direction:column;
+       display: flex;
+        
+         
+       
+    
+       align-items: center;
+        
+       text-align: center;
+        
+     
+        
+        height: 600px;
+        width: 600px;
+        border-radius: 5px; 
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+        color: #171934;
+       background-color:#e2e2e2;
+       
+          
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+    }
+    #form .parrafo{
+        margin-top: 10px;
+        font-weight: bold;
+        align-items: center;
+
+      justify-content: space-between;
+        font-size: 20px;
+        color:  #171934;
+        
+    }
+
+    #form .semi{
+
+        
+        margin-bottom: 12px;        
+        align-items:flex-end;
+       text-align:center;
+       justify-content: center;
+      
+       
+       font-size: 18px ;
+       height: 30px;
+       border: none;
+       
+       
+    }
+    #form input{
+        border-radius: 3px;
+        border: 1px solid rgb(163, 153, 153);
+        outline: none;
+        align-items: center;
+        display: block;
+        margin:auto;
+        justify-content: center;
+    }
+
+    #form .button{
+        margin-top: 20px;
+        font-size: 1.7em;
+        font-weight: bold;
+        padding: 18px 20px;
+        border-radius: 12px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+        color: white;
+        background-color: #b9caff;
+        border-color: #9da5bd;
+        border-width: 4px;
+        cursor: pointer;
+        
+    }
+    #form .button:hover{
+        cursor: pointer;
+        border-color: #b9caffa8;
+        background-color:  #b9caffc2;
+    }
+
+    #form .entrar{
+        margin-top: 5px;
+    }
+
+    #form .entrar a{
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #form  p{
+        font-size: 20px;
+        font-weight: bold;
+    } 
+
+    footer{
+        
+        margin-top: 50px;
+        justify-content:center;
+        text-align: center;
+        padding-bottom:20px;
+        flex-direction: column;
+        background-color: black;
+        color: #F1EEE9;
+     }
+     footer .conteiner{
+        margin:auto ;
+       
+     }
+     footer p {
+        font-size: 1.5em;
+    }
+
+    .message{
+        font-size: BOLD;
+        color: black;
+        background-color: darkgreen;
+    }
+
+    header{
+        background-color:#e2e2e2;
+        
+         width: 100%;
+     }
+     
+     header .logo{
+         margin: auto;
+       
+         padding: 25px 30px;
+         font-weight: bold;
+         color:#b9caff;
+         font-size: 1.8em;
+     }
+     
+     header .conteiner{
+         
+         display:flex;
+         
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+     header nav{
+         
+         display: flex;
+         
+         text-align: center;
+         padding-bottom: 0;
+        
+     }
+     
+     header a{
+        padding-right: 10px;
+         padding: 15px 30px;
+         text-decoration: none;
+         font-weight: bold;
+         color: #15133C;
+         font-size: 20px;
+         text-align: center;
+        
+     }
+     
+     header a:hover{
+         border:10px 12px;
+         color:#15133C;
+         background-color:#b9caff;
+         border-radius: 10px;
+         transition: 0.4s;
+     }
+     .message{
+        font-size: BOLD;
+        color: black;
+        background-color: darkgreen;
+    }
+     .error{
+        justify-content: center;
+        align-items: center;
+        background-color: #e2e2e2;
+        font-size: bold;
+        font-size: 25px;
+        display: flex;
+        border-radius: 40px;
+        border: 20px;
+        box-sizing: border-box;
+        color: red;
+   
+
+     }
+     .error_p p{
+        font-size: 25px;
+        font: bold;
+        color: aquamarine;
+   
+     
+ }
+
+ .alerta p{
+    font: bold;
+    color: green;
+    background-color: #e2e2e2;
+ }
